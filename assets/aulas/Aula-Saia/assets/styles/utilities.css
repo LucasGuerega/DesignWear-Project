@@ -17,6 +17,10 @@
     left: 150px;
 }
 
+#imgR{
+    width: 1080px;
+}
+
 #dica {
     position: relative;
     left: 200px;
@@ -26,6 +30,8 @@
 
 .btns{
     display: flex;
+    position: relative;
+    top: 150px;
 }
 
 /*Hovers*/
