@@ -4,9 +4,7 @@ const btnPinca = document.querySelector("#btn3");
 const btnComprimento = document.querySelector("#btn4");
 const btnAmplitude = document.querySelector("#btn5");
 const btnBainha = document.querySelector("#btn6");
-const Pormenor = document.querySelector("#mardadorP");
-
-const imgSaia1 = document.querySelector("#saia1");
+const Inspirar = document.querySelector("#inspi");
 
 btnCintura.addEventListener('click', () => {
     window.location.href = './cintura.html';
@@ -31,8 +29,9 @@ btnAmplitude.addEventListener('click', () => {
 btnBainha.addEventListener('click', () => {
     window.location.href = './bainha.html';
 });
-Pormenor.addEventListener('click', () => {
-    window.location.href = './';
+
+document.querySelector("#inspi").addEventListener('click', () => {
+    window.location.href = './inspirar.html';
 });
 
 
