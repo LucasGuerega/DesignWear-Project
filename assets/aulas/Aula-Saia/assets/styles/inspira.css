@@ -1,6 +1,9 @@
 body{
     background-color: rgb(151, 151, 151);
 }
+a{
+    font-size: large;
+}
 .gallery {
     display: flex;
     flex-direction: column;
