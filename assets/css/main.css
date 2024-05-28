@@ -9,7 +9,6 @@
 */
 
 /* Reset */
-
 * {
 	margin: 0;
 	padding: 0;
@@ -1682,32 +1681,34 @@ body {
 }
 
 #btnAula1 {
-	position: absolute;
-	left: 035px;
 	top: 250px;
-	width: 100%;
-	height: 8%
 }
+
 #btnAula2 {
-	position: absolute;
-	left: 035px;
 	top: 400px;
-	width: 100%;
-	height: 8%
 }
+
 #btnAula3 {
-	position: absolute;
-	left: 035px;
 	top: 550px;
-	width: 100%;
-	height: 8%
 }
+
 #btnAula4 {
-	position: absolute;
-	left: 035px;
 	top: 700px;
-	width: 100%;
-	height: 8%
+}
+
+#btnAula5 {
+	top: 850px;
+}
+
+#btnAula1,
+#btnAula2,
+#btnAula3,
+#btnAula4,
+#btnAula5 {
+	position: absolute;
+	left: 0px;
+	width: 115%;
+	height: 15%
 }
 
 body {
