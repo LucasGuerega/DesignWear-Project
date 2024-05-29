@@ -4,7 +4,7 @@ const btnPinca = document.querySelector("#btn3");
 const btnComprimento = document.querySelector("#btn4");
 const btnAmplitude = document.querySelector("#btn5");
 const btnBainha = document.querySelector("#btn6");
-const Pormenor = document.querySelector("#mardadorP");
+const Pormenor = document.querySelector("#inspire");
 
 const imgSaia1 = document.querySelector("#saia1");
 
@@ -32,7 +32,7 @@ btnBainha.addEventListener('click', () => {
     window.location.href = './bainha.html';
 });
 Pormenor.addEventListener('click', () => {
-    window.location.href = './';
+    window.location.href = './bainha.html';
 });
 
 
