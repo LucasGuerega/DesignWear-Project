@@ -18,6 +18,13 @@
 	vertical-align: baseline;
 }
 
+/* Ajustes de estilo para tela de Pixel 7 */
+#banner {
+	max-width: 100%;
+	height: auto;
+	top: -15px;
+}
+
 .inputSubmit {
 
 	border: none;
@@ -1680,35 +1687,13 @@ body {
 
 }
 
-#btnAula1 {
-	top: 250px;
-}
-
-#btnAula2 {
-	top: 400px;
-}
-
-#btnAula3 {
-	top: 550px;
-}
-
-#btnAula4 {
-	top: 700px;
-}
-
-#btnAula5 {
-	top: 850px;
-}
-
 #btnAula1,
 #btnAula2,
 #btnAula3,
 #btnAula4,
 #btnAula5 {
-	position: absolute;
-	left: 0px;
-	width: 115%;
-	height: 15%
+	max-width: 100%;
+	height: auto;
 }
 
 body {
