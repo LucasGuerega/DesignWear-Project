@@ -1,6 +1,7 @@
 /*Btns*/
 #btnVoltar,
-#btnProximo {
+#btnProximo,
+#btnProximo2 {
     width: 300px;
     height: 300px;
 }
@@ -14,22 +15,33 @@
     position: relative;
     left: 70%;
 }
+#btnProximo2 {
+    position: relative;
+    left: 30%;
+}
 
-/*Fecho*/
+
 #legenda {
     position: relative;
-    left: 150px;
+    width: 72%;
+}
+#legenda2 {
+    position: relative;
+    width: 68%;
 }
 
 #imgR {
     width: 1080px;
 }
+#imgR1 {
+    width: 800px;
+}
 
 #dica {
     position: relative;
-    left: 200px;
-    width: 600px;
-    height: 400px;
+    left: 15%;
+    width: 567px;
+    height: 498px;
 }
 
 .btns {
@@ -64,5 +76,8 @@
 }
 
 body {
+    zoom: 36%;
+}
+boy {
     zoom: 50%;
 }
