@@ -1,23 +1,27 @@
 /*Btns*/
-#btnVoltar, #btnProximo{
+#btnVoltar,
+#btnProximo {
     width: 300px;
     height: 300px;
 }
-#btnVoltar{
+
+#btnVoltar {
     position: relative;
     left: 10%;
 }
-#btnProximo{
+
+#btnProximo {
     position: relative;
-    left: 100%;
+    left: 70%;
 }
+
 /*Fecho*/
 #legenda {
     position: relative;
     left: 150px;
 }
 
-#imgR{
+#imgR {
     width: 1080px;
 }
 
@@ -28,10 +32,15 @@
     height: 400px;
 }
 
-.btns{
+.btns {
     display: flex;
     position: relative;
-    top: 150px;
+    top: 25em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /*Hovers*/
@@ -52,4 +61,8 @@
     100% {
         opacity: 100%
     }
+}
+
+body {
+    zoom: 50%;
 }

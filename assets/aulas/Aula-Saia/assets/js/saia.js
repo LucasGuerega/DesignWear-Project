@@ -6,8 +6,6 @@ const btnAmplitude = document.querySelector("#btn5");
 const btnBainha = document.querySelector("#btn6");
 const Pormenor = document.querySelector("#inspire");
 
-const imgSaia1 = document.querySelector("#saia1");
-
 btnCintura.addEventListener('click', () => {
     window.location.href = './cintura.html';
 });
@@ -33,6 +31,7 @@ btnBainha.addEventListener('click', () => {
 });
 Pormenor.addEventListener('click', () => {
     window.location.href = './bainha.html';
+    console.log("sei");
 });
 
 
